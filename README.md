@@ -33,7 +33,7 @@ and tunables.
 
 ## Getting started
 
-1. Read `docs/hardware-gotchas.md` first — it has the known-good
+1. Read `docs/hardware-gotchas.md` first. It has the known-good
    `platformio.ini` settings and the toolchain fixes (Windows long-path
    limit, wrong PlatformIO platform version) that everything else depends on.
 2. Build and flash `teleprompter-display/` first. Join the "Teleprompter"
