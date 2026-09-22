@@ -1,0 +1,4 @@
+# OS/editor cruft not already covered by display/.gitignore and remote/.gitignore
+.DS_Store
+Thumbs.db
+*.swp

@@ -1,0 +1,17 @@
+TELEPROMPTER REMOTE - standalone PlatformIO project
+===================================================
+
+This folder is a complete project on its own. It lives in the same repo as
+the display firmware, but builds and flashes separately.
+
+1. In VS Code: File > Open Folder, and select THIS folder
+   (teleprompter-remote, the one containing platformio.ini).
+2. Plug in the remote board only, then Build and Upload.
+
+If the build starts compiling Roboto_96.c or mentions LittleFS or
+WebServer, you have the display project open, not this one. This project
+has exactly three source files and pulls in no libraries.
+
+Buttons: GPIO7 faster, GPIO5 slower, GPIO4 play/pause. Each one wires
+pin -> button -> GND. No resistors. Pins are set in src/ctl_config.h.
+See README.md.
