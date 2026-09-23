@@ -44,7 +44,7 @@ and tunables.
 
 ## Parts list
 
-See `docs/PARTS.md`.
+See `docs/Teleprompter_Parts.xlsx`.
 
 ## Design background
 
